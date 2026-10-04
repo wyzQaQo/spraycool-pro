@@ -1,0 +1,122 @@
+▲ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+(node:37684) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ Compiled successfully in 19.1s
+  Running TypeScript ...
+  Finished TypeScript in 14.8s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/163) ...
+  Generating static pages using 3 workers (40/163) 
+  Generating static pages using 3 workers (81/163) 
+  Generating static pages using 3 workers (122/163) 
+✓ Generating static pages using 3 workers (163/163) in 2.5s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├ ƒ /[locale]
+├ ƒ /[locale]/about
+├ ● /[locale]/applications
+│ ├ /en/applications
+│ ├ /ar/applications
+│ ├ /es/applications
+│ └ /fr/applications
+├ ● /[locale]/applications/agriculture
+│ ├ /en/applications/agriculture
+│ ├ /ar/applications/agriculture
+│ ├ /es/applications/agriculture
+│ └ /fr/applications/agriculture
+├ ● /[locale]/applications/commercial-hospitality
+│ ├ /en/applications/commercial-hospitality
+│ ├ /ar/applications/commercial-hospitality
+│ ├ /es/applications/commercial-hospitality
+│ └ /fr/applications/commercial-hospitality
+├ ● /[locale]/applications/events-sports
+│ ├ /en/applications/events-sports
+│ ├ /ar/applications/events-sports
+│ ├ /es/applications/events-sports
+│ └ /fr/applications/events-sports
+├ ● /[locale]/applications/industrial
+│ ├ /en/applications/industrial
+│ ├ /ar/applications/industrial
+│ ├ /es/applications/industrial
+│ └ /fr/applications/industrial
+├ ● /[locale]/applications/residential
+│ ├ /en/applications/residential
+│ ├ /ar/applications/residential
+│ ├ /es/applications/residential
+│ └ /fr/applications/residential
+├ ƒ /[locale]/blog
+├ ƒ /[locale]/blog/[slug]
+├ ● /[locale]/blog/how-misting-systems-work
+│ ├ /en/blog/how-misting-systems-work
+│ ├ /ar/blog/how-misting-systems-work
+│ ├ /es/blog/how-misting-systems-work
+│ └ /fr/blog/how-misting-systems-work
+├ ● /[locale]/blog/restaurant-outdoor-cooling-guide
+│ ├ /en/blog/restaurant-outdoor-cooling-guide
+│ ├ /ar/blog/restaurant-outdoor-cooling-guide
+│ ├ /es/blog/restaurant-outdoor-cooling-guide
+│ └ /fr/blog/restaurant-outdoor-cooling-guide
+├ ƒ /[locale]/certificates
+├ ƒ /[locale]/contact
+├ ƒ /[locale]/factory
+├ ƒ /[locale]/faq
+├ ƒ /[locale]/industries
+├ ƒ /[locale]/industries/[slug]
+├ ƒ /[locale]/privacy-policy
+├ ● /[locale]/problems
+│ ├ /en/problems
+│ ├ /ar/problems
+│ ├ /es/problems
+│ └ /fr/problems
+├ ● /[locale]/problems/dust-control
+│ ├ /en/problems/dust-control
+│ ├ /ar/problems/dust-control
+│ ├ /es/problems/dust-control
+│ └ /fr/problems/dust-control
+├ ● /[locale]/problems/greenhouse-humidity
+│ ├ /en/problems/greenhouse-humidity
+│ ├ /ar/problems/greenhouse-humidity
+│ ├ /es/problems/greenhouse-humidity
+│ └ /fr/problems/greenhouse-humidity
+├ ● /[locale]/problems/high-outdoor-temperature
+│ ├ /en/problems/high-outdoor-temperature
+│ ├ /ar/problems/high-outdoor-temperature
+│ ├ /es/problems/high-outdoor-temperature
+│ └ /fr/problems/high-outdoor-temperature
+├ ● /[locale]/problems/livestock-heat-stress
+│ ├ /en/problems/livestock-heat-stress
+│ ├ /ar/problems/livestock-heat-stress
+│ ├ /es/problems/livestock-heat-stress
+│ └ /fr/problems/livestock-heat-stress
+├ ● /[locale]/problems/mosquito-problems
+│ ├ /en/problems/mosquito-problems
+│ ├ /ar/problems/mosquito-problems
+│ ├ /es/problems/mosquito-problems
+│ └ /fr/problems/mosquito-problems
+├ ƒ /[locale]/products
+├ ƒ /[locale]/products/[slug]
+├ ƒ /[locale]/products/complete-systems
+├ ƒ /[locale]/products/control-systems
+├ ƒ /[locale]/products/mosquito-systems
+├ ƒ /[locale]/products/nozzles-accessories
+├ ƒ /[locale]/products/pump-stations
+├ ƒ /[locale]/products/water-treatment
+├ ƒ /[locale]/quality
+├ ƒ /[locale]/resources
+├ ƒ /[locale]/terms-of-service
+├ ƒ /api/geoflow/content
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

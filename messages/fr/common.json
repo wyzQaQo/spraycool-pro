@@ -1,0 +1,287 @@
+{
+  "site": {
+    "name": "100Cooling",
+    "tagline": "Systèmes de Confort Extérieur pour Resorts, Hôtels et Espaces Commerciaux",
+    "slogan": "Climatisation de précision pour les plus beaux espaces extérieurs du monde"
+  },
+  "nav": {
+    "applications": "Applications",
+    "problems": "Problèmes Résolus",
+    "products": "Produits",
+    "about": "À propos",
+    "contact": "Contact",
+    "requestQuote": "Demander un Devis",
+    "blog": "Articles",
+    "factory": "Visite d'Usine"
+  },
+  "navDropdown": {
+    "applications": {
+      "commercial": "Commercial et Hôtellerie",
+      "residential": "Résidentiel",
+      "agriculture": "Agriculture",
+      "industrial": "Industriel",
+      "events": "Événements et Sports"
+    },
+    "problems": {
+      "heat": "Hautes Températures Extérieures",
+      "mosquito": "Problèmes de Moustiques",
+      "dust": "Contrôle des Poussières",
+      "livestock": "Stress Thermique du Bétail",
+      "greenhouse": "Humidité des Serres"
+    },
+    "products": {
+      "complete": "Systèmes Complets",
+      "pumps": "Stations de Pompage",
+      "nozzles": "Buses et Accessoires",
+      "controls": "Systèmes de Contrôle",
+      "mosquito": "Systèmes Anti-Moustiques",
+      "water": "Traitement de l'Eau"
+    }
+  },
+  "footer": {
+    "products": "Produits",
+    "solutions": "Solutions",
+    "company": "Entreprise",
+    "support": "Support",
+    "copyright": "© {year} 100Cooling. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "certifications": "Certifications ISO"
+  },
+  "hero": {
+    "line1": "Systèmes de Confort Extérieur pour",
+    "line2": "Resorts, Hôtels et Espaces Commerciaux",
+    "subtitle": "Climatisation de précision qui transforme les espaces extérieurs en générateurs de revenus toute l'année. Refroidissement haute pression, contrôle automatique des moustiques et gestion environnementale intelligente.",
+    "cta1": "Demandez une Évaluation de votre Espace",
+    "cta2": "Explorer les Solutions"
+  },
+  "scenarios": {
+    "resort": {
+      "title": "Solution de Refroidissement pour Resorts",
+      "desc": "Climatisation extérieure complète pour resorts de luxe et hôtels",
+      "keywords": "système de refroidissement extérieur pour hôtels, solution de refroidissement pour resorts, système de refroidissement pour terrasses d'hôtel, climatisation extérieure pour resorts"
+    },
+    "restaurant": {
+      "title": "Refroidissement pour Restaurants et Terrasses",
+      "desc": "Prolongez les saisons de restauration avec un confort extérieur invisible",
+      "keywords": "système de brumisation pour restaurants, système de refroidissement pour repas en extérieur, solution de refroidissement pour terrasses, système de brumisation commercial pour terrasses"
+    },
+    "beachClub": {
+      "title": "Confort pour Clubs de Plage",
+      "desc": "Gardez les clients au frais et à l'aise dans les environnements côtiers",
+      "keywords": "système de refroidissement pour clubs de plage, refroidissement extérieur pour resorts de plage, solution de refroidissement pour bars de plage"
+    },
+    "golf": {
+      "title": "Brumisation pour Terrains de Golf",
+      "desc": "Refroidissement de précision pour parcours, practice et club-houses",
+      "keywords": "système de brumisation pour terrains de golf, système de refroidissement pour practice de golf"
+    },
+    "mosquito": {
+      "title": "Contrôle Commercial des Moustiques",
+      "desc": "Barrières automatisées sans produits chimiques pour établissements hôteliers",
+      "keywords": "système commercial de brumisation anti-moustiques, système automatique de contrôle des moustiques, contrôle des moustiques pour resorts, système anti-moustiques extérieur pour hôtels"
+    },
+    "factory": {
+      "title": "Solutions de Refroidissement Industriel",
+      "desc": "Réduisez le stress thermique et augmentez la productivité dans les installations de fabrication",
+      "keywords": "système de refroidissement industriel, solution de refroidissement pour usines, contrôle de température d'entrepôt, refroidissement d'installations de fabrication"
+    }
+  },
+  "technology": {
+    "title": "Ingénierie du Confort Extérieur",
+    "subtitle": "Trois technologies, une plateforme intégrée",
+    "cooling": {
+      "title": "Brumisation Haute Pression",
+      "desc": "Des stations de pompage industrielles de 150 bars atomisent l'eau en gouttelettes de 5-15 microns qui s'évaporent instantanément, absorbant 2 257 kJ de chaleur par litre. Réduction de température de 8-15°C sans mouiller les surfaces."
+    },
+    "mosquito": {
+      "title": "Contrôle Automatique des Moustiques",
+      "desc": "Injection programmable de répulsif botanique créant des barrières protectrices de 6 mètres. Programmez le refroidissement le jour, le contrôle des moustiques le soir — un seul système, double fonctionnement."
+    },
+    "iot": {
+      "title": "Contrôle Environnemental Intelligent",
+      "desc": "Programmation sensible à la météo, contrôle zone par zone, tableau de bord cloud. S'intègre aux systèmes BMS et SCADA existants."
+    }
+  },
+  "cta": {
+    "title": "Transformez vos Espaces Extérieurs",
+    "subtitle": "Demandez une évaluation de votre espace. Notre équipe d'ingénierie concevra un système de confort extérieur personnalisé selon votre climat, espace et budget.",
+    "button": "Demander un Devis",
+    "whatsapp": "Chat WhatsApp"
+  },
+  "langSwitcher": {
+    "label": "Langue",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français"
+  },
+  "seo": {
+    "homeTitle": "Systèmes de Confort Extérieur pour Resorts et Hôtels | 100Cooling",
+    "homeDesc": "Systèmes de refroidissement extérieur haute pression et contrôle automatique des moustiques pour resorts, hôtels, restaurants et espaces commerciaux.",
+    "productsTitle": "Produits de Confort Extérieur | Refroidissement, Anti-Moustiques et IoT | 100Cooling",
+    "productsDesc": "Systèmes complets de confort extérieur : pompes de brumisation haute pression, buses céramiques, contrôle automatique des moustiques, contrôleurs IoT. Équipement industriel pour espaces commerciaux.",
+    "contactTitle": "Demander un Devis de Système de Confort Extérieur | 100Cooling",
+    "contactDesc": "Obtenez un devis personnalisé pour un système de refroidissement extérieur ou de contrôle des moustiques pour votre hôtel, resort ou espace commercial.",
+    "blogTitle": "Blog d'Ingénierie du Confort Extérieur | 100Cooling",
+    "blogDesc": "Guides techniques, études de cas et ressources d'approvisionnement pour systèmes de refroidissement extérieur, contrôle des moustiques et gestion climatique pour espaces commerciaux.",
+    "mosquitoTitle": "Système Commercial de Contrôle des Moustiques pour Resorts et Hôtels | 100Cooling",
+    "mosquitoDesc": "Système automatisé de brumisation anti-moustiques pour resorts, hôtels et restaurants. Répulsif botanique, barrière protectrice de 6 m, programmation programmable. Formules sans danger alimentaire, enregistrées EPA."
+  },
+  "industries": {
+    "title": "Solutions par Type d'Espace",
+    "subtitle": "Chaque espace extérieur a des défis climatiques uniques. Nous concevons pour chacun d'entre eux.",
+    "viewSolutions": "Voir les Solutions",
+    "relatedIndustries": "Secteurs Connexes"
+  },
+  "products": {
+    "title": "Écosystème de Produits de Confort Extérieur",
+    "subtitle": "Systèmes intégrés de refroidissement, contrôle des moustiques et gestion environnementale",
+    "backToProducts": "Retour aux Produits",
+    "startingFrom": "À Partir de",
+    "leadTime": "Délai de Livraison",
+    "warranty": "Garantie",
+    "compareProducts": "Comparer les Produits",
+    "keyFeatures": "Caractéristiques Clés",
+    "technicalSpecs": "Spécifications Techniques",
+    "relatedProducts": "Produits Associés",
+    "engineeringResources": "Ressources d'Ingénierie",
+    "viewDetails": "Voir les Détails",
+    "readArticle": "Lire l'Article",
+    "customConfig": "Besoin d'une Configuration Personnalisée ?",
+    "customConfigDesc": "Notre équipe d'ingénierie peut concevoir un système sur mesure pour votre espace, climat et budget spécifiques.",
+    "getConsultation": "Obtenir une Consultation d'Ingénierie",
+    "viewAllProducts": "Voir Tous les Produits",
+    "categories": {
+      "completeSystems": "Systèmes Complets",
+      "pumpStations": "Stations de Pompage",
+      "nozzles": "Buses et Accessoires",
+      "controls": "Systèmes de Contrôle",
+      "mosquito": "Systèmes Anti-Moustiques",
+      "waterTreatment": "Traitement de l'Eau"
+    }
+  },
+  "mosquito": {
+    "hero": "Systèmes Commerciaux de Contrôle des Moustiques",
+    "subtitle": "Barrières automatisées sans produits chimiques pour resorts, hôtels et espaces commerciaux. Protégez l'expérience client et les revenus de restauration sans entretien quotidien.",
+    "techTitle": "Comment Ça Fonctionne",
+    "techDesc": "Notre système haute pression atomise un répulsif botanique dans la même brume micronique utilisée pour le refroidissement. Une barrière protectrice de 6 mètres se forme autour du périmètre de votre établissement.",
+    "features": {
+      "auto": "Programmation entièrement automatisée — configurez et oubliez",
+      "botanical": "Formules botaniques enregistrées EPA, sans danger pour les aliments",
+      "coverage": "Couverture jusqu'à 10 000 m² par système",
+      "dual": "Mode double : refroidissement + contrôle des moustiques"
+    }
+  },
+  "about": {
+    "title": "Redéfinir le Confort Extérieur",
+    "subtitle": "Nous concevons des systèmes de climatisation pour les environnements extérieurs les plus exigeants du monde — des resorts de plage cinq étoiles aux usines de 15 000 m².",
+    "story": "Notre Histoire",
+    "stats": "100Cooling en Chiffres",
+    "certifications": "Certifications",
+    "manufacturing": "Capacités de Fabrication",
+    "globalReach": "Présence Mondiale"
+  },
+  "blog": {
+    "title": "Perspectives d'Ingénierie",
+    "subtitle": "Analyses techniques approfondies, guides d'application et ressources d'approvisionnement pour les professionnels du confort extérieur",
+    "backToBlog": "Retour au Blog",
+    "readMore": "Lire la Suite",
+    "relatedArticles": "Articles Connexes",
+    "exploreProducts": "Découvrir les Produits 100Cooling",
+    "viewAllProducts": "Voir Tous les Produits"
+  },
+  "factory": {
+    "title": "Notre Site de Fabrication",
+    "subtitle": "Certifié ISO 9001:2015. Atelier de production de 8 000 m². Fabrication interne de la matière première au produit fini.",
+    "floorArea": "Superficie de l'Atelier",
+    "workforce": "Main-d'Œuvre Qualifiée",
+    "productionLines": "Lignes de Production",
+    "capabilities": "Capacités de Fabrication",
+    "qualityControl": "Contrôle Qualité",
+    "tourAvailable": "Visite d'Usine Disponible",
+    "tourDesc": "Nous accueillons les clients potentiels pour des inspections sur site. Découvrez notre processus de fabrication et rencontrez notre équipe d'ingénierie.",
+    "scheduleVisit": "Planifier une Visite"
+  },
+  "quality": {
+    "title": "La Qualité Sans Compromis",
+    "subtitle": "Chaque produit 100Cooling passe par 5 étapes de contrôle qualité.",
+    "step1": "Inspection des Matières Entrantes",
+    "step2": "Contrôle Qualité en Cours de Production",
+    "step3": "Tests de Pression et Performance",
+    "step4": "Audit Qualité Final",
+    "step5": "Inspection Avant Expédition",
+    "stepPrefix": "ÉTAPE",
+    "warrantyTitle": "Garantie de 5 Ans Fondée sur des Données Qualité",
+    "warrantyDesc": "Notre taux de défauts est inférieur à 0,3 % sur toutes les gammes de produits."
+  },
+  "certificates": {
+    "title": "Certifications et Conformité",
+    "subtitle": "Chaque produit 100Cooling est testé et certifié pour répondre aux normes internationales de sécurité, performance et responsabilité environnementale.",
+    "valid": "Valide et à Jour"
+  },
+  "resources": {
+    "title": "Centre de Ressources",
+    "subtitle": "Fiches techniques, fichiers CAO, guides d'installation et documents de certification — tout ce dont vous avez besoin pour évaluer, spécifier et installer les systèmes 100Cooling.",
+    "needSpecific": "Besoin de Quelque Chose de Spécifique ?",
+    "needSpecificDesc": "Notre équipe d'ingénierie peut fournir une documentation personnalisée, des modèles CAO sur mesure et une consultation technique pour votre projet.",
+    "requestCustom": "Demander une Documentation Personnalisée"
+  },
+  "contact": {
+    "title": "Créons Quelque Chose d'Exceptionnel",
+    "subtitle": "Parlez-nous de votre projet. Notre équipe d'ingénierie répond sous 24 heures avec une évaluation préliminaire et un devis.",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "headquarters": "Siège Social",
+    "hours": "Heures d'Ouverture",
+    "fullName": "Nom Complet *",
+    "company": "Entreprise *",
+    "emailField": "E-mail *",
+    "phoneField": "Téléphone",
+    "projectDetails": "Détails du Projet *",
+    "sendInquiry": "Envoyer la Demande",
+    "messageSent": "Message Envoyé avec Succès",
+    "messageSentDesc": "Notre équipe examinera votre demande et répondra sous 24 heures."
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "allCategories": "Toutes"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : juin 2026"
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation"
+  },
+  "caseStudies": {
+    "title": "Résultats Prouvés sur le Terrain",
+    "readCaseStudy": "Lire l'Étude de Cas"
+  },
+  "solutions": {
+    "title": "Conçu pour Chaque Environnement",
+    "subtitle": "Six applications, une plateforme unifiée"
+  },
+  "applications": {
+    "title": "Écosystème de Produits"
+  },
+  "painPoints": {
+    "title": "Pourquoi les Solutions Traditionnelles Échouent",
+    "subtitle": "Les lacunes de refroidissement extérieur qui vous coûtent des revenus"
+  },
+  "faqData": [
+    { "q": "Comment la brumisation haute pression refroidit-elle les espaces extérieurs ?", "a": "Notre système pressurise l'eau à 150 bars et la force à travers des buses céramiques de précision de 0,15 mm, créant des gouttelettes de 5-15 microns. Ces micro-gouttelettes s'évaporent instantanément dans l'air, absorbant 2 257 kJ de chaleur par litre d'eau (chaleur latente de vaporisation). Le résultat est une réduction instantanée de température de 5-15°C sans mouiller les surfaces.", "cat": "Technology" },
+    { "q": "La brume va-t-elle mouiller mes clients, meubles ou aliments ?", "a": "Non. C'est la différence clé entre 100Cooling et les systèmes de pulvérisation conventionnels. Nos gouttelettes de 5-15 microns s'évaporent complètement avant d'atteindre toute surface. Les clients ne ressentent que l'effet rafraîchissant, jamais d'humidité. Cela a été vérifié dans des milliers d'installations dans des restaurants, resorts et espaces événementiels.", "cat": "Technology" },
+    { "q": "Quelle est la différence entre la brumisation haute pression et basse pression ?", "a": "Les systèmes basse pression (7-20 bars) produisent des gouttelettes de 50-100 microns qui ne s'évaporent pas complètement, causant de l'humidité. Les systèmes haute pression (70-150 bars) produisent des gouttelettes de 5-15 microns qui s'évaporent instantanément et complètement. La différence d'efficacité de refroidissement est d'environ 3 à 5 fois supérieure. 100Cooling utilise exclusivement la technologie haute pression.", "cat": "Technology" },
+    { "q": "Comment fonctionne le système répulsif anti-moustiques ?", "a": "Notre pompe doseuse péristaltique injecte des quantités mesurées de répulsif botanique ou synthétique dans la ligne de brumisation. La même pression de 150 bars atomise le répulsif en une brume fine, créant une barrière protectrice de 6 mètres de hauteur. La programmation est entièrement automatisée via le MG-IOT HUB. Le système peut fonctionner en mode refroidissement seul ou refroidissement+répulsif.", "cat": "Mosquito Control" },
+    { "q": "Les produits chimiques répulsifs sont-ils sûrs pour les zones de service alimentaire ?", "a": "Oui. Nous proposons des concentrés répulsifs botaniques enregistrés EPA (à base de pyréthrine) sans danger alimentaire lorsqu'ils sont utilisés conformément aux instructions. Notre certification FDA de qualité alimentaire couvre tous les matériaux en contact avec l'eau de brume. Le système comprend une prévention de refoulement et un double confinement pour la sécurité chimique.", "cat": "Mosquito Control" },
+    { "q": "Quelle est la surface de couverture maximale pour un système ?", "a": "Notre station de pompage MG-PRO 1500 prend en charge jusqu'à 200 buses, couvrant environ 5 000 m². Le système MG-INDUSTRIEL avec pompes redondantes doubles couvre jusqu'à 10 000 m². Pour les surfaces plus grandes, nous concevons des configurations multizones avec des contrôleurs synchronisés.", "cat": "Products" },
+    { "q": "Quelle maintenance est requise ?", "a": "Minimale. Recommandé : inspection des buses tous les 6 mois, remplacement de la cartouche filtrante annuellement, vidange d'huile de la pompe toutes les 2 000 heures de fonctionnement. Le MG-IOT HUB surveille la santé du système et envoie des alertes de maintenance proactives. La plupart des installations fonctionnent 12 à 18 mois entre les visites de service.", "cat": "Maintenance" },
+    { "q": "Quel est le délai typique de retour sur investissement ?", "a": "La plupart des clients commerciaux récupèrent leur investissement en 8 à 18 mois grâce à : l'augmentation des revenus des places en terrasse (les restaurants constatent généralement une augmentation de 30-60%), la réduction des coûts énergétiques de climatisation (90% de moins que la climatisation équivalente) et l'extension des saisons d'exploitation. Notre calculateur de ROI gratuit fournit des estimations spécifiques au projet.", "cat": "Pricing" },
+    { "q": "Fournissez-vous des services d'installation à l'échelle mondiale ?", "a": "Nous avons des partenaires d'installation certifiés dans 25 pays en Asie du Sud-Est, au Moyen-Orient, en Afrique et en Amérique latine. Pour les régions sans partenaire local, nous fournissons une supervision et une formation d'installation à distance. Tous les systèmes sont livrés avec une documentation d'installation complète.", "cat": "Installation" },
+    { "q": "Quelle garantie offrez-vous ?", "a": "Garantie complète de 5 ans sur toutes les stations de pompage. Garantie de 3 ans sur les buses et les contrôleurs. Garantie de 2 ans sur les accessoires. La garantie comprend les pièces et le support technique à distance. Service sur site disponible via notre réseau de partenaires.", "cat": "Warranty" },
+    { "q": "Le système peut-il fonctionner 24h/24 et 7j/7 en continu ?", "a": "Oui. Le MG-PRO 1500 est conçu pour un fonctionnement continu 24h/24 et 7j/7 à pleine pression nominale. Le moteur VFD comprend une protection thermique et la tête de pompe est conçue pour des cycles de service industriels. Nos systèmes fonctionnent couramment 18 à 22 heures/jour dans les applications de resorts et d'usines.", "cat": "Products" },
+    { "q": "Quelle qualité d'eau est requise ?", "a": "Notre système de filtration intégré à 5 étages gère la plupart des sources d'eau municipales et de puits. Pour l'eau à forte teneur en minéraux (>300 ppm TDS), nous recommandons le module optionnel d'osmose inverse pour prévenir l'entartrage des buses. Le système comprend une protection automatique d'arrêt en cas de niveau d'eau bas.", "cat": "Installation" }
+  ]
+}

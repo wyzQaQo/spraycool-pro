@@ -1,0 +1,287 @@
+{
+  "site": {
+    "name": "100Cooling",
+    "tagline": "Sistemas de Confort Exterior para Resorts, Hoteles y Espacios Comerciales",
+    "slogan": "Climatización de precisión para los mejores espacios exteriores del mundo"
+  },
+  "nav": {
+    "applications": "Aplicaciones",
+    "problems": "Problemas que Resolvemos",
+    "products": "Productos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "requestQuote": "Solicitar Cotización",
+    "blog": "Artículos",
+    "factory": "Visita a Fábrica"
+  },
+  "navDropdown": {
+    "applications": {
+      "commercial": "Comercial y Hostelería",
+      "residential": "Residencial",
+      "agriculture": "Agricultura",
+      "industrial": "Industrial",
+      "events": "Eventos y Deportes"
+    },
+    "problems": {
+      "heat": "Altas Temperaturas Exteriores",
+      "mosquito": "Problemas de Mosquitos",
+      "dust": "Control de Polvo",
+      "livestock": "Estrés Térmico del Ganado",
+      "greenhouse": "Humedad del Invernadero"
+    },
+    "products": {
+      "complete": "Sistemas Completos",
+      "pumps": "Estaciones de Bombas",
+      "nozzles": "Boquillas y Accesorios",
+      "controls": "Sistemas de Control",
+      "mosquito": "Sistemas Anti-Mosquitos",
+      "water": "Tratamiento de Agua"
+    }
+  },
+  "footer": {
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "company": "Empresa",
+    "support": "Soporte",
+    "copyright": "© {year} 100Cooling. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "certifications": "Certificaciones ISO"
+  },
+  "hero": {
+    "line1": "Sistemas de Confort Exterior para",
+    "line2": "Resorts, Hoteles y Espacios Comerciales",
+    "subtitle": "Climatización de precisión que transforma espacios exteriores en generadores de ingresos todo el año. Refrigeración de alta presión, control automático de mosquitos y gestión ambiental inteligente.",
+    "cta1": "Solicite Evaluación de su Espacio",
+    "cta2": "Explorar Soluciones"
+  },
+  "scenarios": {
+    "resort": {
+      "title": "Solución de Refrigeración para Resorts",
+      "desc": "Climatización exterior completa para resorts de lujo y hoteles",
+      "keywords": "sistema de refrigeración exterior para hoteles, solución de refrigeración para resorts, sistema de refrigeración para terrazas de hotel, climatización exterior para resorts"
+    },
+    "restaurant": {
+      "title": "Refrigeración para Restaurantes y Terrazas",
+      "desc": "Amplíe las temporadas de comedor con confort exterior invisible",
+      "keywords": "sistema de nebulización para restaurantes, sistema de refrigeración para comedor exterior, solución de refrigeración para terrazas, sistema de nebulización comercial para terrazas"
+    },
+    "beachClub": {
+      "title": "Confort para Clubes de Playa",
+      "desc": "Mantenga a los huéspedes frescos y cómodos en entornos costeros",
+      "keywords": "sistema de refrigeración para clubes de playa, refrigeración exterior para resorts de playa, solución de refrigeración para bares de playa"
+    },
+    "golf": {
+      "title": "Nebulización para Campos de Golf",
+      "desc": "Refrigeración de precisión para campos, áreas de práctica y casas club",
+      "keywords": "sistema de nebulización para campos de golf, sistema de refrigeración para áreas de práctica de golf"
+    },
+    "mosquito": {
+      "title": "Control Comercial de Mosquitos",
+      "desc": "Barreras automatizadas sin químicos para establecimientos hosteleros",
+      "keywords": "sistema comercial de nebulización antimosquitos, sistema automático de control de mosquitos, control de mosquitos para resorts, sistema antimosquitos exterior para hoteles"
+    },
+    "factory": {
+      "title": "Soluciones de Refrigeración Industrial",
+      "desc": "Reduzca el estrés térmico y aumente la productividad en instalaciones de fabricación",
+      "keywords": "sistema de refrigeración industrial, solución de refrigeración para fábricas, control de temperatura de almacenes, refrigeración de instalaciones de fabricación"
+    }
+  },
+  "technology": {
+    "title": "Ingeniería del Confort Exterior",
+    "subtitle": "Tres tecnologías, una plataforma integrada",
+    "cooling": {
+      "title": "Nebulización de Alta Presión",
+      "desc": "Estaciones de bombeo industriales de 150 bar atomizan el agua en gotas de 5-15 micrones que se evaporan instantáneamente, absorbiendo 2.257 kJ de calor por litro. Reducción de temperatura de 8-15°C sin humedecer superficies."
+    },
+    "mosquito": {
+      "title": "Control Automático de Mosquitos",
+      "desc": "Inyección programable de repelente botánico que crea barreras protectoras de 6 metros. Programe refrigeración de día, control de mosquitos de noche — un solo sistema, doble funcionamiento."
+    },
+    "iot": {
+      "title": "Control Ambiental Inteligente",
+      "desc": "Programación sensible al clima, control zona por zona, panel de monitoreo en la nube. Se integra con sistemas BMS y SCADA existentes."
+    }
+  },
+  "cta": {
+    "title": "Transforme sus Espacios Exteriores",
+    "subtitle": "Solicite una evaluación de su espacio. Nuestro equipo de ingeniería diseñará un sistema de confort exterior personalizado según su clima, espacio y presupuesto.",
+    "button": "Solicitar Cotización",
+    "whatsapp": "Chatear por WhatsApp"
+  },
+  "langSwitcher": {
+    "label": "Idioma",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français"
+  },
+  "seo": {
+    "homeTitle": "Sistemas de Confort Exterior para Resorts y Hoteles | 100Cooling",
+    "homeDesc": "Sistemas de refrigeración exterior de alta presión y control automático de mosquitos para resorts, hoteles, restaurantes y espacios comerciales.",
+    "productsTitle": "Productos de Confort Exterior | Refrigeración, Control de Mosquitos e IoT | 100Cooling",
+    "productsDesc": "Sistemas completos de confort exterior: bombas de nebulización de alta presión, boquillas cerámicas, control automático de mosquitos, controladores IoT. Equipos de grado industrial para espacios comerciales.",
+    "contactTitle": "Solicitar Cotización de Sistema de Confort Exterior | 100Cooling",
+    "contactDesc": "Obtenga una cotización personalizada para un sistema de refrigeración exterior o control de mosquitos para su hotel, resort o espacio comercial.",
+    "blogTitle": "Blog de Ingeniería de Confort Exterior | 100Cooling",
+    "blogDesc": "Guías técnicas, casos de estudio y recursos de adquisición para sistemas de refrigeración exterior, control de mosquitos y gestión climática para espacios comerciales.",
+    "mosquitoTitle": "Sistema Comercial de Control de Mosquitos para Resorts y Hoteles | 100Cooling",
+    "mosquitoDesc": "Sistema automatizado de nebulización antimosquitos para resorts, hoteles y restaurantes. Repelente botánico, barrera protectora de 6 m, programación programable. Fórmulas seguras para alimentos, registradas por la EPA."
+  },
+  "industries": {
+    "title": "Soluciones por Tipo de Espacio",
+    "subtitle": "Cada espacio exterior tiene desafíos climáticos únicos. Diseñamos para todos ellos.",
+    "viewSolutions": "Ver Soluciones",
+    "relatedIndustries": "Sectores Relacionados"
+  },
+  "products": {
+    "title": "Ecosistema de Productos de Confort Exterior",
+    "subtitle": "Sistemas integrados de refrigeración, control de mosquitos y gestión ambiental",
+    "backToProducts": "Volver a Productos",
+    "startingFrom": "Desde",
+    "leadTime": "Tiempo de Entrega",
+    "warranty": "Garantía",
+    "compareProducts": "Comparar Productos",
+    "keyFeatures": "Características Clave",
+    "technicalSpecs": "Especificaciones Técnicas",
+    "relatedProducts": "Productos Relacionados",
+    "engineeringResources": "Recursos de Ingeniería",
+    "viewDetails": "Ver Detalles",
+    "readArticle": "Leer Artículo",
+    "customConfig": "¿Necesita una Configuración Personalizada?",
+    "customConfigDesc": "Nuestro equipo de ingeniería puede diseñar un sistema a medida para su espacio, clima y presupuesto específicos.",
+    "getConsultation": "Obtener Consultoría de Ingeniería",
+    "viewAllProducts": "Ver Todos los Productos",
+    "categories": {
+      "completeSystems": "Sistemas Completos",
+      "pumpStations": "Estaciones de Bombeo",
+      "nozzles": "Boquillas y Accesorios",
+      "controls": "Sistemas de Control",
+      "mosquito": "Sistemas Antimosquitos",
+      "waterTreatment": "Tratamiento de Agua"
+    }
+  },
+  "mosquito": {
+    "hero": "Sistemas Comerciales de Control de Mosquitos",
+    "subtitle": "Barreras automatizadas sin químicos para resorts, hoteles y espacios comerciales. Proteja la experiencia del huésped y los ingresos de A&B sin mantenimiento diario.",
+    "techTitle": "Cómo Funciona",
+    "techDesc": "Nuestro sistema de alta presión atomiza repelente botánico en la misma niebla de nivel micrónico utilizada para refrigeración. Se forma una barrera protectora de 6 metros alrededor del perímetro de su espacio.",
+    "features": {
+      "auto": "Programación completamente automatizada — configúrelo y olvídese",
+      "botanical": "Fórmulas botánicas registradas por la EPA, seguras para alimentos",
+      "coverage": "Cobertura de hasta 10.000 m² por sistema",
+      "dual": "Modo dual: refrigeración + control de mosquitos"
+    }
+  },
+  "about": {
+    "title": "Redefiniendo el Confort Exterior",
+    "subtitle": "Diseñamos sistemas de climatización para los entornos exteriores más exigentes del mundo — desde resorts de playa cinco estrellas hasta plantas de fábrica de 15.000 m².",
+    "story": "Nuestra Historia",
+    "stats": "100Cooling en Cifras",
+    "certifications": "Certificaciones",
+    "manufacturing": "Capacidades de Fabricación",
+    "globalReach": "Alcance Global"
+  },
+  "blog": {
+    "title": "Perspectivas de Ingeniería",
+    "subtitle": "Análisis técnicos profundos, guías de aplicación y recursos de adquisición para profesionales del confort exterior",
+    "backToBlog": "Volver al Blog",
+    "readMore": "Leer Más",
+    "relatedArticles": "Artículos Relacionados",
+    "exploreProducts": "Explorar Productos 100Cooling",
+    "viewAllProducts": "Ver Todos los Productos"
+  },
+  "factory": {
+    "title": "Nuestra Planta de Fabricación",
+    "subtitle": "Certificación ISO 9001:2015. Planta de producción de 8.000 m². Fabricación interna desde materia prima hasta producto terminado.",
+    "floorArea": "Superficie de Planta",
+    "workforce": "Personal Calificado",
+    "productionLines": "Líneas de Producción",
+    "capabilities": "Capacidades de Fabricación",
+    "qualityControl": "Control de Calidad",
+    "tourAvailable": "Visita a Fábrica Disponible",
+    "tourDesc": "Recibimos a clientes potenciales para inspecciones in situ. Conozca nuestro proceso de fabricación y reúnase con nuestro equipo de ingeniería.",
+    "scheduleVisit": "Programar una Visita"
+  },
+  "quality": {
+    "title": "Calidad Sin Concesiones",
+    "subtitle": "Cada producto 100Cooling pasa por 5 etapas de control de calidad.",
+    "step1": "Inspección de Material Entrante",
+    "step2": "Control de Calidad en Proceso",
+    "step3": "Pruebas de Presión y Rendimiento",
+    "step4": "Auditoría Final de Calidad",
+    "step5": "Inspección Pre-Embarque",
+    "stepPrefix": "PASO",
+    "warrantyTitle": "Garantía de 5 Años Respaldada por Datos de Calidad",
+    "warrantyDesc": "Nuestra tasa de defectos es inferior al 0,3% en todas las líneas de productos."
+  },
+  "certificates": {
+    "title": "Certificaciones y Cumplimiento",
+    "subtitle": "Cada producto 100Cooling es probado y certificado para cumplir con los estándares internacionales de seguridad, rendimiento y responsabilidad ambiental.",
+    "valid": "Vigente y Actual"
+  },
+  "resources": {
+    "title": "Centro de Recursos",
+    "subtitle": "Fichas técnicas, archivos CAD, guías de instalación y documentos de certificación — todo lo que necesita para evaluar, especificar e instalar sistemas 100Cooling.",
+    "needSpecific": "¿Necesita Algo Específico?",
+    "needSpecificDesc": "Nuestro equipo de ingeniería puede proporcionar documentación personalizada, modelos CAD a medida y consultoría técnica para su proyecto.",
+    "requestCustom": "Solicitar Documentación Personalizada"
+  },
+  "contact": {
+    "title": "Construyamos Algo Increíble",
+    "subtitle": "Cuéntenos sobre su proyecto. Nuestro equipo de ingeniería responde en 24 horas con una evaluación preliminar y cotización.",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "whatsapp": "WhatsApp",
+    "headquarters": "Sede Central",
+    "hours": "Horario de Atención",
+    "fullName": "Nombre Completo *",
+    "company": "Empresa *",
+    "emailField": "Correo Electrónico *",
+    "phoneField": "Teléfono",
+    "projectDetails": "Detalles del Proyecto *",
+    "sendInquiry": "Enviar Consulta",
+    "messageSent": "Mensaje Enviado Exitosamente",
+    "messageSentDesc": "Nuestro equipo revisará su consulta y responderá en 24 horas."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "allCategories": "Todas"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026"
+  },
+  "terms": {
+    "title": "Términos de Servicio"
+  },
+  "caseStudies": {
+    "title": "Resultados Comprobados en el Terreno",
+    "readCaseStudy": "Leer Caso de Estudio"
+  },
+  "solutions": {
+    "title": "Diseñado para Cada Entorno",
+    "subtitle": "Seis aplicaciones, una plataforma unificada"
+  },
+  "applications": {
+    "title": "Ecosistema de Productos"
+  },
+  "painPoints": {
+    "title": "Por Qué las Soluciones Tradicionales Fracasan",
+    "subtitle": "Las brechas de refrigeración exterior que le están costando ingresos"
+  },
+  "faqData": [
+    { "q": "¿Cómo enfría la nebulización de alta presión los espacios exteriores?", "a": "Nuestro sistema presuriza el agua a 150 bares y la fuerza a través de boquillas cerámicas de precisión de 0,15 mm, creando gotas de 5-15 micrones. Estas microgotas se evaporan instantáneamente en el aire, absorbiendo 2.257 kJ de calor por litro de agua (calor latente de vaporización). El resultado es una reducción instantánea de temperatura de 5-15°C sin mojar superficies.", "cat": "Technology" },
+    { "q": "¿La niebla mojará a mis clientes, muebles o alimentos?", "a": "No. Esta es la diferencia clave entre 100Cooling y los sistemas de aspersión convencionales. Nuestras gotas de 5-15 micrones se evaporan completamente antes de alcanzar cualquier superficie. Los clientes solo sienten el efecto refrescante, nunca humedad. Esto ha sido verificado en miles de instalaciones en restaurantes, resorts y espacios para eventos.", "cat": "Technology" },
+    { "q": "¿Cuál es la diferencia entre nebulización de alta y baja presión?", "a": "Los sistemas de baja presión (7-20 bares) producen gotas de 50-100 micrones que no se evaporan completamente, causando humedad. Los sistemas de alta presión (70-150 bares) producen gotas de 5-15 micrones que se evaporan instantáneamente por completo. La diferencia de eficiencia de enfriamiento es aproximadamente 3-5 veces mayor. 100Cooling utiliza exclusivamente tecnología de alta presión.", "cat": "Technology" },
+    { "q": "¿Cómo funciona el sistema repelente de mosquitos?", "a": "Nuestra bomba dosificadora peristáltica inyecta cantidades medidas de repelente botánico o sintético en la línea de nebulización. La misma presión de 150 bares atomiza el repelente en una niebla fina, creando una barrera protectora de 6 metros de altura. La programación está completamente automatizada a través del MG-IOT HUB. El sistema puede operar en modo solo enfriamiento o modo enfriamiento+repelente.", "cat": "Mosquito Control" },
+    { "q": "¿Los químicos repelentes son seguros para áreas de servicio de alimentos?", "a": "Sí. Ofrecemos concentrados repelentes botánicos registrados por la EPA (a base de piretrina) que son seguros para alimentos cuando se usan según las indicaciones. Nuestra certificación FDA de Grado Alimenticio cubre todos los materiales en contacto con el agua de niebla. El sistema incluye prevención de reflujo y doble contención para seguridad química.", "cat": "Mosquito Control" },
+    { "q": "¿Cuál es el área máxima de cobertura para un sistema?", "a": "Nuestra estación de bombeo MG-PRO 1500 admite hasta 200 boquillas, cubriendo aproximadamente 5.000 m². El sistema MG-INDUSTRIAL con bombas redundantes duales cubre hasta 10.000 m². Para áreas más grandes, diseñamos configuraciones multizona con controladores sincronizados.", "cat": "Products" },
+    { "q": "¿Qué mantenimiento se requiere?", "a": "Mínimo. Recomendado: inspección de boquillas cada 6 meses, reemplazo del cartucho de filtro anualmente, cambio de aceite de la bomba cada 2.000 horas de funcionamiento. El MG-IOT HUB monitorea la salud del sistema y envía alertas de mantenimiento proactivas. La mayoría de las instalaciones funcionan 12-18 meses entre visitas de servicio.", "cat": "Maintenance" },
+    { "q": "¿Cuál es el plazo típico de retorno de inversión?", "a": "La mayoría de los clientes comerciales recuperan su inversión en 8-18 meses mediante: aumento de ingresos por mesas exteriores (los restaurantes típicamente ven un aumento del 30-60%), reducción de costos de energía de climatización (90% menos que el aire acondicionado equivalente) y extensión de temporadas operativas. Nuestra calculadora de ROI gratuita proporciona estimaciones específicas del proyecto.", "cat": "Pricing" },
+    { "q": "¿Ofrecen servicios de instalación a nivel global?", "a": "Tenemos socios de instalación certificados en 25 países en todo el Sudeste Asiático, Medio Oriente, África y América Latina. Para regiones sin un socio local, proporcionamos supervisión y capacitación de instalación remotas. Todos los sistemas vienen con documentación completa de instalación.", "cat": "Installation" },
+    { "q": "¿Qué garantía ofrecen?", "a": "Garantía integral de 5 años en todas las estaciones de bombeo. Garantía de 3 años en boquillas y controladores. Garantía de 2 años en accesorios. La garantía incluye repuestos y soporte técnico remoto. Servicio en sitio disponible a través de nuestra red de socios.", "cat": "Warranty" },
+    { "q": "¿Puede el sistema funcionar 24/7 de forma continua?", "a": "Sí. El MG-PRO 1500 está clasificado para funcionamiento continuo 24/7 a plena presión nominal. El motor VFD incluye protección térmica y el cabezal de la bomba está diseñado para ciclos de trabajo industriales. Nuestros sistemas funcionan comúnmente 18-22 horas/día en aplicaciones de resorts y fábricas.", "cat": "Products" },
+    { "q": "¿Qué calidad de agua se requiere?", "a": "Nuestro sistema integrado de filtración de 5 etapas maneja la mayoría de las fuentes de agua municipal y de pozo. Para agua con alto contenido mineral (>300 ppm TDS), recomendamos el módulo opcional de ósmosis inversa para prevenir incrustaciones en las boquillas. El sistema incluye protección automática de apagado por bajo nivel de agua.", "cat": "Installation" }
+  ]
+}

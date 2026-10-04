@@ -1,0 +1,287 @@
+{
+  "site": {
+    "name": "100Cooling",
+    "tagline": "Outdoor Cooling, Misting & Dust Control Solutions",
+    "slogan": "Cooling people, protecting livestock, controlling dust and enhancing outdoor comfort"
+  },
+  "nav": {
+    "applications": "Applications",
+    "problems": "Problems We Solve",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "requestQuote": "Request a Quote",
+    "blog": "Insights",
+    "factory": "Factory Tour"
+  },
+  "navDropdown": {
+    "applications": {
+      "commercial": "Commercial & Hospitality",
+      "residential": "Residential",
+      "agriculture": "Agriculture",
+      "industrial": "Industrial",
+      "events": "Events & Sports"
+    },
+    "problems": {
+      "heat": "High Outdoor Temperature",
+      "mosquito": "Mosquito Problems",
+      "dust": "Dust Control",
+      "livestock": "Livestock Heat Stress",
+      "greenhouse": "Greenhouse Humidity"
+    },
+    "products": {
+      "complete": "Complete Systems",
+      "pumps": "Pump Stations",
+      "nozzles": "Nozzles & Accessories",
+      "controls": "Control Systems",
+      "mosquito": "Mosquito Systems",
+      "water": "Water Treatment"
+    }
+  },
+  "footer": {
+    "products": "Products",
+    "solutions": "Solutions",
+    "company": "Company",
+    "support": "Support",
+    "copyright": "© {year} 100Cooling. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "certifications": "ISO Certifications"
+  },
+  "hero": {
+    "line1": "Outdoor Cooling, Misting",
+    "line2": "& Dust Control Solutions",
+    "subtitle": "Cooling people, protecting livestock, controlling dust and enhancing outdoor comfort. From luxury resorts to industrial facilities — engineered for every environment.",
+    "cta1": "Request a Quote",
+    "cta2": "Explore Applications"
+  },
+  "scenarios": {
+    "resort": {
+      "title": "Resort Cooling Solution",
+      "desc": "Complete outdoor climate control for luxury resorts and hotels",
+      "keywords": "hotel outdoor cooling system, resort cooling solution, cooling system for hotel terrace, outdoor climate control for resort"
+    },
+    "restaurant": {
+      "title": "Restaurant & Patio Cooling",
+      "desc": "Extend dining seasons with invisible outdoor comfort",
+      "keywords": "restaurant misting system, cooling system for outdoor dining, patio cooling solution, commercial patio misting system"
+    },
+    "beachClub": {
+      "title": "Beach Club Comfort",
+      "desc": "Keep guests cool and comfortable in coastal environments",
+      "keywords": "beach club cooling system, outdoor cooling for beach resort, cooling solution for beach bar"
+    },
+    "golf": {
+      "title": "Golf Course Misting",
+      "desc": "Precision cooling for courses, driving ranges, and clubhouses",
+      "keywords": "golf course misting system, golf driving range cooling system"
+    },
+    "mosquito": {
+      "title": "Commercial Mosquito Control",
+      "desc": "Automated, chemical-free mosquito barriers for hospitality venues",
+      "keywords": "commercial mosquito misting system, automatic mosquito control system, mosquito control for resort, outdoor mosquito system for hotel"
+    },
+    "factory": {
+      "title": "Industrial Cooling Solutions",
+      "desc": "Reduce heat stress and boost productivity in manufacturing facilities",
+      "keywords": "industrial cooling system, factory cooling solution, warehouse temperature control, manufacturing facility cooling"
+    }
+  },
+  "technology": {
+    "title": "Engineering Outdoor Comfort",
+    "subtitle": "Three technologies, one integrated platform",
+    "cooling": {
+      "title": "High-Pressure Misting",
+      "desc": "150-bar industrial pump stations atomize water into 5-15 micron droplets that flash-evaporate, absorbing 2,257 kJ of heat per liter. 8-15°C temperature reduction without wetting surfaces."
+    },
+    "mosquito": {
+      "title": "Automated Mosquito Control",
+      "desc": "Programmable botanical repellent injection creates 6-meter protective barriers. Schedule cooling by day, mosquito control by evening — one system, dual operation."
+    },
+    "iot": {
+      "title": "Smart Environmental Control",
+      "desc": "Weather-responsive scheduling, zone-by-zone control, cloud monitoring dashboard. Integrates with existing BMS and SCADA systems."
+    }
+  },
+  "cta": {
+    "title": "Transform Your Outdoor Spaces",
+    "subtitle": "Request a venue assessment. Our engineering team will design a custom outdoor comfort system for your specific climate, space, and budget.",
+    "button": "Request a Quote",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "about": {
+    "title": "Redefining Outdoor Comfort",
+    "subtitle": "We engineer climate control systems for the world's most demanding outdoor environments — from five-star beachfront resorts to 15,000 m² factory floors.",
+    "story": "Our Story",
+    "stats": "100Cooling by the Numbers",
+    "certifications": "Certifications",
+    "manufacturing": "Manufacturing Capabilities",
+    "globalReach": "Global Reach"
+  },
+  "products": {
+    "title": "Outdoor Comfort Product Ecosystem",
+    "subtitle": "Integrated systems for cooling, mosquito control, and environmental management",
+    "backToProducts": "Back to Products",
+    "startingFrom": "Starting From",
+    "leadTime": "Lead Time",
+    "warranty": "Warranty",
+    "compareProducts": "Compare Products",
+    "keyFeatures": "Key Features",
+    "technicalSpecs": "Technical Specifications",
+    "relatedProducts": "Related Products",
+    "engineeringResources": "Engineering Resources",
+    "viewDetails": "View Details",
+    "readArticle": "Read Article",
+    "customConfig": "Need a Custom Configuration?",
+    "customConfigDesc": "Our engineering team can design a bespoke system for your specific space, climate, and budget.",
+    "getConsultation": "Get Engineering Consultation",
+    "viewAllProducts": "View All Products",
+    "categories": {
+      "completeSystems": "Complete Systems",
+      "pumpStations": "Pump Stations",
+      "nozzles": "Nozzles & Accessories",
+      "controls": "Control Systems",
+      "mosquito": "Mosquito Systems",
+      "waterTreatment": "Water Treatment"
+    }
+  },
+  "mosquito": {
+    "hero": "Commercial Mosquito Control Systems",
+    "subtitle": "Automated, chemical-free mosquito barriers for resorts, hotels, and commercial venues. Protect guest experience and F&B revenue without daily maintenance.",
+    "techTitle": "How It Works",
+    "techDesc": "Our high-pressure system atomizes botanical repellent into the same micron-level mist used for cooling. A 6-meter high protective barrier forms around your venue perimeter.",
+    "features": {
+      "auto": "Fully automated scheduling — set and forget",
+      "botanical": "EPA-registered botanical formulas, food-safe",
+      "coverage": "Up to 10,000 m² coverage per system",
+      "dual": "Dual-mode: cooling + mosquito control"
+    }
+  },
+  "industries": {
+    "title": "Solutions by Venue Type",
+    "subtitle": "Every outdoor space has unique climate challenges. We engineer for them all.",
+    "viewSolutions": "View Solutions",
+    "relatedIndustries": "Related Industries"
+  },
+  "blog": {
+    "title": "Engineering Insights",
+    "subtitle": "Technical deep dives, application guides, and procurement resources for outdoor comfort professionals",
+    "backToBlog": "Back to Blog",
+    "readMore": "Read More",
+    "relatedArticles": "Related Articles",
+    "exploreProducts": "Explore 100Coolingducts",
+    "viewAllProducts": "View All Products"
+  },
+  "langSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français"
+  },
+  "seo": {
+    "homeTitle": "Outdoor Cooling, Misting & Dust Control Solutions | 100Cooling",
+    "homeDesc": "High-pressure outdoor cooling, automated mosquito control, and dust suppression systems for resorts, hotels, restaurants, agriculture, and industrial facilities. 8-15°C cooling without wetting surfaces.",
+    "productsTitle": "Outdoor Comfort Products | Cooling, Mosquito Control & IoT | 100Cooling",
+    "productsDesc": "Complete outdoor comfort systems: high-pressure misting pumps, ceramic nozzles, automated mosquito control, IoT controllers. Industrial-grade equipment for commercial venues.",
+    "mosquitoTitle": "Commercial Mosquito Control System for Resort & Hotel | 100Cooling",
+    "mosquitoDesc": "Automated mosquito misting system for resorts, hotels, and restaurants. Botanical repellent, 6m protective barrier, programmable scheduling. Food-safe, EPA-registered formulas.",
+    "contactTitle": "Request Outdoor Comfort System Quote | 100Cooling",
+    "contactDesc": "Get a custom outdoor cooling or mosquito control system quote for your hotel, resort, or commercial venue. Engineering response within 24 hours.",
+    "blogTitle": "Outdoor Comfort Engineering Blog | 100Cooling",
+    "blogDesc": "Technical guides, case studies, and procurement resources for outdoor cooling, mosquito control, and climate management systems for commercial venues."
+  },
+  "factory": {
+    "title": "Our Manufacturing Facility",
+    "subtitle": "ISO 9001:2015 certified. 8,000 m² production floor. In-house manufacturing from raw material to finished product.",
+    "floorArea": "Floor Area",
+    "workforce": "Skilled Workforce",
+    "productionLines": "Production Lines",
+    "capabilities": "Manufacturing Capabilities",
+    "qualityControl": "Quality Control",
+    "tourAvailable": "Factory Tour Available",
+    "tourDesc": "We welcome prospective clients for on-site factory inspections. See our manufacturing process and meet our engineering team.",
+    "scheduleVisit": "Schedule a Visit"
+  },
+  "quality": {
+    "title": "Quality Without Compromise",
+    "subtitle": "Every 100Cooling product passes 5 stages of quality control.",
+    "step1": "Incoming Material Inspection",
+    "step2": "In-Process QC",
+    "step3": "Pressure & Performance Testing",
+    "step4": "Final QC Audit",
+    "step5": "Pre-Shipment Inspection",
+    "stepPrefix": "STEP",
+    "warrantyTitle": "5-Year Warranty Backed by Quality Data",
+    "warrantyDesc": "Our defect rate is below 0.3% across all product lines."
+  },
+  "certificates": {
+    "title": "Certifications & Compliance",
+    "subtitle": "Every 100Cooling product is tested and certified to meet international standards for safety, performance, and environmental responsibility.",
+    "valid": "Valid & Current"
+  },
+  "resources": {
+    "title": "Resource Center",
+    "subtitle": "Datasheets, CAD files, installation guides, and certification documents — everything you need to evaluate, specify, and install 100Cooling systems.",
+    "needSpecific": "Need Something Specific?",
+    "needSpecificDesc": "Our engineering team can provide custom documentation, bespoke CAD models, and technical consultation for your project.",
+    "requestCustom": "Request Custom Documentation"
+  },
+  "contact": {
+    "title": "Let's Build Something Cool",
+    "subtitle": "Tell us about your project. Our engineering team responds within 24 hours with a preliminary assessment and quotation.",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "headquarters": "Headquarters",
+    "hours": "Business Hours",
+    "fullName": "Full Name *",
+    "company": "Company *",
+    "emailField": "Email *",
+    "phoneField": "Phone",
+    "projectDetails": "Project Details *",
+    "sendInquiry": "Send Inquiry",
+    "messageSent": "Message Sent Successfully",
+    "messageSentDesc": "Our team will review your inquiry and respond within 24 hours."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "allCategories": "All"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2026"
+  },
+  "terms": {
+    "title": "Terms of Service"
+  },
+  "caseStudies": {
+    "title": "Proven Results in the Field",
+    "readCaseStudy": "Read Case Study"
+  },
+  "solutions": {
+    "title": "Engineered for Every Environment",
+    "subtitle": "Six applications, one unified platform"
+  },
+  "applications": {
+    "title": "Product Ecosystem"
+  },
+  "painPoints": {
+    "title": "Why Traditional Solutions Fail",
+    "subtitle": "The outdoor cooling gaps costing you revenue"
+  },
+  "faqData": [
+    { "q": "How does high-pressure misting cool outdoor spaces?", "a": "Our system pressurizes water to 150 bar and forces it through 0.15mm ceramic nozzles, creating 5-15 micron droplets. These micro-droplets flash-evaporate in mid-air, absorbing 2,257 kJ of heat per liter of water (latent heat of vaporization). The result is an instant 5-15°C temperature reduction without wetting surfaces.", "cat": "Technology" },
+    { "q": "Will the mist wet my guests, furniture, or food?", "a": "No. This is the key difference between 100Cooling and conventional spray systems. Our 5-15 micron droplets evaporate completely before reaching any surface. Guests feel only the cooling effect, never moisture. This has been verified in thousands of installations across restaurants, resorts, and event venues.", "cat": "Technology" },
+    { "q": "What's the difference between high-pressure and low-pressure misting?", "a": "Low-pressure systems (7-20 bar) produce 50-100 micron droplets that do not fully evaporate, causing wetness. High-pressure systems (70-150 bar) produce 5-15 micron droplets that flash-evaporate completely. The cooling efficiency difference is approximately 3-5x. 100Cooling exclusively uses high-pressure technology.", "cat": "Technology" },
+    { "q": "How does the mosquito repellent system work?", "a": "Our peristaltic dosing pump injects measured amounts of botanical or synthetic repellent into the misting line. The same 150-bar pressure atomizes the repellent into the fine mist, creating a 6-meter high protective barrier. Scheduling is fully automated via the MG-IOT HUB. The system can operate in cooling-only or cooling+repellent modes.", "cat": "Mosquito Control" },
+    { "q": "Are the repellent chemicals safe for food service areas?", "a": "Yes. We offer EPA-registered botanical repellent concentrates (pyrethrin-based) that are food-safe when used as directed. Our FDA Food-Grade certification covers all materials in contact with the mist water. The system includes backflow prevention and double containment for chemical safety.", "cat": "Mosquito Control" },
+    { "q": "What is the maximum coverage area for one system?", "a": "Our MG-PRO 1500 pump station supports up to 200 nozzles, covering approximately 5,000 m². The MG-INDUSTRIAL system with dual redundant pumps covers up to 10,000 m². For larger areas, we design multi-zone configurations with synchronized controllers.", "cat": "Products" },
+    { "q": "What maintenance is required?", "a": "Minimal. Recommended: nozzle inspection every 6 months, filter cartridge replacement annually, pump oil change every 2,000 operating hours. The MG-IOT HUB monitors system health and sends proactive maintenance alerts. Most installations run 12-18 months between service visits.", "cat": "Maintenance" },
+    { "q": "What is the typical ROI timeline?", "a": "Most commercial clients recover their investment in 8-18 months through: increased outdoor seating revenue (restaurants typically see 30-60% increase), reduced HVAC energy costs (90% less than equivalent AC), and extended operating seasons. Our free ROI calculator provides project-specific estimates.", "cat": "Pricing" },
+    { "q": "Do you provide installation services globally?", "a": "We have certified installation partners in 25 countries across Southeast Asia, the Middle East, Africa, and Latin America. For regions without a local partner, we provide remote installation supervision and training. All systems come with comprehensive installation documentation.", "cat": "Installation" },
+    { "q": "What warranty do you offer?", "a": "5-year comprehensive warranty on all pump stations. 3-year warranty on nozzles and controllers. 2-year warranty on accessories. Warranty includes parts and remote technical support. On-site service available through our partner network.", "cat": "Warranty" },
+    { "q": "Can the system operate 24/7 continuously?", "a": "Yes. The MG-PRO 1500 is rated for continuous 24/7 operation at full rated pressure. The VFD motor includes thermal protection and the pump head is designed for industrial duty cycles. Our systems commonly run 18-22 hours/day in resort and factory applications.", "cat": "Products" },
+    { "q": "What water quality is required?", "a": "Our integrated 5-stage filtration system handles most municipal and well water sources. For water with high mineral content (>300 ppm TDS), we recommend the optional reverse osmosis module to prevent nozzle scaling. The system includes automatic low-water shutdown protection.", "cat": "Installation" }
+  ]
+}
