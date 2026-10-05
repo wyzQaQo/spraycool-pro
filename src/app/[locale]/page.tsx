@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
 import ApplicationsPreview from "@/components/sections/ApplicationsPreview";

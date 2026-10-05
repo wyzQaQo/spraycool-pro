@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 import { getProducts, getProductBySlug } from "@/lib/data";
 import type { Product } from "@/lib/products";
 import ProductDetailClient from "./ProductDetailClient";
