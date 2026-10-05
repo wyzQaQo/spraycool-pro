@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import { redirect } from "next/navigation";
 import { headers } from "next/headers";
 import { defaultLocale } from "@/i18n/config";

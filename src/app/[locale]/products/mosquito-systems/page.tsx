@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import CategoryPage from "@/components/sections/CategoryPage";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {

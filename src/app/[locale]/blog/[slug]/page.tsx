@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import { getBlogArticles } from "@/lib/data";
 import BlogDetailClient from "./BlogDetailClient";
 

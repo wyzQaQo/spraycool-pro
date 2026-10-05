@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import { getIndustries } from "@/lib/data";
 import IndustriesClient from "./IndustriesClient";
 

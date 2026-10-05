@@ -1,13 +1,25 @@
 import { getRequestConfig } from "next-intl/server";
-import { hasLocale } from "next-intl";
-import { locales, defaultLocale } from "./config";
-
-export default getRequestConfig(async ({ requestLocale }) => {
-  const requested = await requestLocale;
-  const locale = hasLocale(locales, requested) ? requested : defaultLocale;
-
-  return {
-    locale,
-    messages: (await import(`../../messages/${locale}/common.json`)).default,
-  };
+export default getRequestConfig(async ({ locale }) => {
+  let messages;
+  try {
+    switch (locale) {
+      case "zh": messages = (await import("../../messages/zh.json")).default; break;
+      case "es": messages = (await import("../../messages/es.json")).default; break;
+      case "fr": messages = (await import("../../messages/fr.json")).default; break;
+      case "ar": messages = (await import("../../messages/ar.json")).default; break;
+      default: messages = (await import("../../messages/en.json")).default; break;
+    }
+  } catch(e) {
+    // If nested differently, try one directory up
+    try {
+      switch (locale) {
+        case "zh": messages = (await import("../messages/zh.json")).default; break;
+        case "es": messages = (await import("../messages/es.json")).default; break;
+        case "fr": messages = (await import("../messages/fr.json")).default; break;
+        case "ar": messages = (await import("../messages/ar.json")).default; break;
+        default: messages = (await import("../messages/en.json")).default; break;
+      }
+    } catch(e2) {}
+  }
+  return { locale, messages };
 });

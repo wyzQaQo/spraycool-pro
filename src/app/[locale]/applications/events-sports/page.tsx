@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Navbar from "@/components/layout/Navbar";
