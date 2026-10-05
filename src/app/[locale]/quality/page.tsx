@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 "use client";
 import { motion } from "motion/react";
 import { ShieldCheck, ClipboardText, Microscope, Package, Truck } from "@phosphor-icons/react";

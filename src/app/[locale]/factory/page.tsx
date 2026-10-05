@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 "use client";
 
 import { motion } from "motion/react";

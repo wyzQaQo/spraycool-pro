@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 "use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
