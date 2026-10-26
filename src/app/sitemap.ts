@@ -1,70 +1,65 @@
+import fs from "node:fs";
+import path from "node:path";
 import { products } from "@/lib/products";
+import { blogPosts } from "@/lib/blog";
 import type { MetadataRoute } from "next";
 
 const locales = ["en", "ar", "es", "fr"] as const;
+const BASE_URL = "https://100mist.com";
 
-const blogSlugs = [
-  "how-high-pressure-misting-works",
-  "high-pressure-vs-low-pressure-misting",
-  "outdoor-cooling-for-restaurants-guide",
-  "factory-floor-cooling-productivity",
-  "how-to-choose-misting-system",
-  "misting-system-cost-breakdown",
-  // New SEO pages
-  "how-misting-systems-work",
-  "restaurant-outdoor-cooling-guide",
-];
+/**
+ * URL sources, in priority order:
+ *  - dynamic routes: their own data modules (products -> @/lib/products,
+ *    blog -> @/lib/blog), identical to what the [slug] routes render.
+ *  - extra routes that exist as real on-disk pages (static category pages and
+ *    two standalone blog articles): discovered by reading the app directory at
+ *    build time, so the sitemap can never advertise a URL that has no route.
+ *
+ * Deliberately no hand-typed slug lists: those rot silently and turn into the
+ * "Not found (404)" entries reported by Search Console.
+ */
 
-const productCategories = [
-  "complete-systems",
-  "pump-stations",
-  "nozzles-accessories",
-  "control-systems",
-  "mosquito-systems",
-  "water-treatment",
-];
+const APP_LOCALE_DIR = path.join(process.cwd(), "src", "app", "[locale]");
 
-const staticPaths = [
-  { path: "", priority: 1, changeFrequency: "weekly" as const },
-  { path: "/products", priority: 0.9, changeFrequency: "weekly" as const },
-  { path: "/industries", priority: 0.8, changeFrequency: "monthly" as const },
-  { path: "/about", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/factory", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/quality", priority: 0.6, changeFrequency: "monthly" as const },
-  { path: "/certificates", priority: 0.6, changeFrequency: "monthly" as const },
-  { path: "/resources", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/contact", priority: 0.8, changeFrequency: "monthly" as const },
-  { path: "/faq", priority: 0.6, changeFrequency: "monthly" as const },
-  { path: "/blog", priority: 0.8, changeFrequency: "weekly" as const },
-  { path: "/privacy-policy", priority: 0.3, changeFrequency: "yearly" as const },
-  { path: "/terms-of-service", priority: 0.3, changeFrequency: "yearly" as const },
-  // Applications
-  { path: "/applications", priority: 0.8, changeFrequency: "monthly" as const },
-  { path: "/applications/commercial-hospitality", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/applications/residential", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/applications/agriculture", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/applications/industrial", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/applications/events-sports", priority: 0.7, changeFrequency: "monthly" as const },
-  // Problems
-  { path: "/problems", priority: 0.8, changeFrequency: "monthly" as const },
-  { path: "/problems/high-outdoor-temperature", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/problems/mosquito-problems", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/problems/dust-control", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/problems/livestock-heat-stress", priority: 0.7, changeFrequency: "monthly" as const },
-  { path: "/problems/greenhouse-humidity", priority: 0.7, changeFrequency: "monthly" as const },
+/** Immediate child directories that are real pages (contain page.tsx). */
+function childPages(parentDir: string): string[] {
+  try {
+    return fs
+      .readdirSync(parentDir, { withFileTypes: true })
+      .filter((entry) => entry.isDirectory() && entry.name !== "[slug]")
+      .filter((entry) =>
+        fs.existsSync(path.join(parentDir, entry.name, "page.tsx"))
+      )
+      .map((entry) => entry.name);
+  } catch {
+    return [];
+  }
+}
+
+const STATIC_PATHS: Array<{
+  path: string;
+  priority: number;
+  changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
+}> = [
+  { path: "", priority: 1, changeFrequency: "weekly" },
+  { path: "/products", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/industries", priority: 0.8, changeFrequency: "monthly" },
+  { path: "/about", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/factory", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/quality", priority: 0.6, changeFrequency: "monthly" },
+  { path: "/certificates", priority: 0.6, changeFrequency: "monthly" },
+  { path: "/resources", priority: 0.7, changeFrequency: "monthly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://100mist.com";
   const now = new Date();
-
   const entries: MetadataRoute.Sitemap = [];
 
-  // Static pages × locales
+  // 1. Static pages × locales
   for (const locale of locales) {
-    for (const page of staticPaths) {
+    for (const page of STATIC_PATHS) {
       entries.push({
-        url: `${baseUrl}/${locale}${page.path}`,
+        url: `${BASE_URL}/${locale}${page.path}`,
         lastModified: now,
         changeFrequency: page.changeFrequency,
         priority: page.priority,
@@ -72,11 +67,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Product detail pages × locales
+  // 2. Product detail pages (dynamic [slug] over products data)
   for (const locale of locales) {
     for (const p of products) {
       entries.push({
-        url: `${baseUrl}/${locale}/products/${p.slug}`,
+        url: `${BASE_URL}/${locale}/products/${p.slug}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
         priority: 0.7,
@@ -84,11 +79,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Product category pages × locales
+  // 3. Product category pages that exist as real routes
+  const categoryPages = childPages(path.join(APP_LOCALE_DIR, "products"));
   for (const locale of locales) {
-    for (const cat of productCategories) {
+    for (const category of categoryPages) {
       entries.push({
-        url: `${baseUrl}/${locale}/products/${cat}`,
+        url: `${BASE_URL}/${locale}/products/${category}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
         priority: 0.6,
@@ -96,11 +92,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Blog pages × locales
+  // 4. Blog articles: data-driven posts plus any standalone static articles
+  const staticBlogPages = childPages(path.join(APP_LOCALE_DIR, "blog"));
+  const blogSlugs = Array.from(
+    new Set([...blogPosts.map((post) => post.slug), ...staticBlogPages])
+  );
+
   for (const locale of locales) {
     for (const slug of blogSlugs) {
       entries.push({
-        url: `${baseUrl}/${locale}/blog/${slug}`,
+        url: `${BASE_URL}/${locale}/blog/${slug}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
         priority: 0.6,
