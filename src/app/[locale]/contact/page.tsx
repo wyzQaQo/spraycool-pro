@@ -23,7 +23,7 @@ export default function ContactPage() {
 
           <div className="grid lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="space-y-4">
-              {[{ icon: Phone, label: t("contact.phone"), value: "+1 (888) 555-MIST", sub: "Mon-Fri, 8AM-6PM GMT+8" },{ icon: Envelope, label: t("contact.email"), value: "sales@mistguard-pro.com", sub: "Response within 24 hours" },{ icon: WhatsappLogo, label: t("contact.whatsapp"), value: "+86 138 0000 0000", sub: "For urgent inquiries" },{ icon: MapPin, label: t("contact.headquarters"), value: "Shenzhen, Guangdong, China", sub: "" },{ icon: Clock, label: t("contact.hours"), value: "Mon-Fri: 8:00 - 18:00 (GMT+8)", sub: "" }].map((c,i) => (
+              {[{ icon: Phone, label: t("contact.phone"), value: "+1 (888) 555-MIST", sub: "Mon-Fri, 8AM-6PM GMT+8" },{ icon: Envelope, label: t("contact.email"), value: "sales@100mist.com", sub: "Response within 24 hours" },{ icon: WhatsappLogo, label: t("contact.whatsapp"), value: "+86 138 0000 0000", sub: "For urgent inquiries" },{ icon: MapPin, label: t("contact.headquarters"), value: "Shenzhen, Guangdong, China", sub: "" },{ icon: Clock, label: t("contact.hours"), value: "Mon-Fri: 8:00 - 18:00 (GMT+8)", sub: "" }].map((c,i) => (
                 <motion.div key={i} initial={{opacity:0,x:-10}} whileInView={{opacity:1,x:0}} viewport={{once:true}} transition={{delay:i*0.05}} className="glass-card rounded-xl p-4 flex items-start gap-3">
                   <c.icon size={20} weight="duotone" className="text-spray-400 shrink-0 mt-0.5" />
                   <div>

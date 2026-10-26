@@ -20,9 +20,9 @@ export default function PrivacyPolicyPage() {
             <h2 className="text-white text-lg font-semibold mt-8 mb-3">Cookies</h2>
             <p>Our website uses cookies for analytics and functionality. You can control cookie preferences through your browser settings.</p>
             <h2 className="text-white text-lg font-semibold mt-8 mb-3">Your Rights</h2>
-            <p>You may request access to, correction of, or deletion of your personal data by contacting us at privacy@mistguard-pro.com. We will respond within 30 days.</p>
+            <p>You may request access to, correction of, or deletion of your personal data by contacting us at privacy@100mist.com. We will respond within 30 days.</p>
             <h2 className="text-white text-lg font-semibold mt-8 mb-3">Contact</h2>
-            <p>For privacy-related inquiries: privacy@mistguard-pro.com</p>
+            <p>For privacy-related inquiries: privacy@100mist.com</p>
           </div>
         </div>
       </section>
