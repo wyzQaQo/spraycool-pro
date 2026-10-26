@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.mistguard-pro.com/sitemap.xml",
+    sitemap: "https://100mist.com/sitemap.xml",
   };
 }

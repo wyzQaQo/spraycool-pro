@@ -55,7 +55,7 @@ const staticPaths = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.mistguard-pro.com";
+  const baseUrl = "https://100mist.com";
   const now = new Date();
 
   const entries: MetadataRoute.Sitemap = [];
